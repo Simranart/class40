@@ -14,12 +14,21 @@
 
     <script>
       //Your web app's Firebase configuration
-
+      var firebaseConfig = {
+    apiKey: "AIzaSyCyZBb4MdOeJOibIvAvtv6OuG85fcTrRAo",
+    authDomain: "multiplayer-game-ecf6a.firebaseapp.com",
+    databaseURL: "https://multiplayer-game-ecf6a.firebaseio.com",
+    projectId: "multiplayer-game-ecf6a",
+    storageBucket: "multiplayer-game-ecf6a.appspot.com",
+    messagingSenderId: "866831695576",
+    appId: "1:866831695576:web:5a0a49420681ab97c821ad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
       // // Initialize Firebase
       // firebase.initializeApp(firebaseConfig);
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    
     </script>
 
     <script src="js/Player.js"></script>
